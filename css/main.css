@@ -23,3 +23,26 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+
+/* About Page CSS */
+
+.about-container  h2 {
+    text-align: center;
+}
+
+#about-image {
+    width: 100%;
+}
+
+.about-container {
+    width: 95%;
+    align-content: center;
+    display: block;
+    margin: auto;
+
+}
+
+.about-container section {
+    padding-top: 1em;
+}
