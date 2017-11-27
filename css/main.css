@@ -72,4 +72,16 @@ li a:hover {
 #contact img {
     height: 205px;
     margin-top: auto;
+/*************
+PRODUCTS PAGE
+*************/
+
+.productCards img {
+    width: 350px;
+    height: auto;
+}
+
+.productCards div {
+    border: 1px solid black;
+    margin: 1em auto;
 }
