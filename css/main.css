@@ -23,3 +23,17 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+/*************
+PRODUCTS PAGE
+*************/
+
+.productCards img {
+    width: 350px;
+    height: auto;
+}
+
+.productCards div {
+    border: 1px solid black;
+    margin: 1em auto;
+}
