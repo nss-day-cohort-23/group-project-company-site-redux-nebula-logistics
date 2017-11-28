@@ -93,27 +93,30 @@ PRODUCTS PAGE
 /**flex layout**/
 
 .productCards {
-    width: 87%;
+    width: 100%;
     margin: 1em auto;
+    background-image: url('../Images/contactpage.jpg');
 }
 
 .productFlex {
+    width: 87%;
     display: flex;
     flex-flow: row, nowrap;
     justify-content: space-between;
     align-items: stretch;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 .productFlex div {
     flex-grow: 1;
     flex-basis: 22%;
     align-self: stretch;
-    margin: 0 1em;
+    margin: 2em 1em;
     border: 1px solid black;
     border-radius: 0 2em 0 2em;
-    transition: box-shadow .5s;
-    transition: border-width .4s;
+    background-color: rgba(255,255,255,.8);
+    transition: background-color .4s;
+    transition: box-shadow .4s;
 }
 
 .productFlex div:first-child {
@@ -133,6 +136,7 @@ PRODUCTS PAGE
 /**product styling**/
 
 #productTagline {
+    text-align: left;
     font-size: 3.5em;
     margin-left: 3em;
     letter-spacing: .01em;
@@ -145,8 +149,8 @@ PRODUCTS PAGE
 }
 
 .productFlex div:hover {
+    background-color: white;
     box-shadow: 4px 0 4px gold;
-    border-width: 2px;
 }
 
 .productHeader {
