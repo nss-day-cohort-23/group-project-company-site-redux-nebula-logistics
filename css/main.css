@@ -3,6 +3,7 @@
 html {
 height: 100%;
 box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
 }
 body {
     margin: 0;
@@ -233,7 +234,7 @@ PRODUCTS PAGE
     margin: 4em auto;
     padding: .5em;
     text-align: center;
-}
+} 
 
 /*---------FOOTER-----------*/
  #footer {
