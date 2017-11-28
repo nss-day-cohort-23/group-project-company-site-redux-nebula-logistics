@@ -135,51 +135,45 @@ h1,h2,h3,h6{
 
 /*---------CONTACT PAGE-----------*/
 
-.contactimage{
-    background-image:url(‘../Images/contactpage.jpg’);
-}
-
-.contactimage{
-    position: relative;
-    display: 50%;
-    width:500px;
-}
-
-.contact{
-    display:block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    opacity:0;
-    background-color: black;
-}
-
-.contactimage:hover .overlay{
-    opacity: 1;
-}
-
-.text{
-    color: lightgray;
-    font-size: 25px;
-    position: absolute;
-}
-
-.flex-container-center{
-    width: 50%;
+.container {
     margin: auto;
+    text-align: center;
 }
 
-#form-container{
-    padding: 6em;
+.contactHeader {
+    color: white;
+    margin: 0;
+    padding: 2em;
+    font-size: 2em;
 }
 
+#contactimage{
+    background-image:url("../Images/contactpage.jpg");
+}
+
+.form-group {
+    margin: 2em;
+}
+
+.form-group button {
+    padding: .8em 2em;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+#inputBubble {
+    padding: 1em 3em;
+}
 
 .flex-container-left-item{
-    width: 50%;
-    margin: auto;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+.social-media-icon {
+    padding: 0 .7em;
 }
 
 /*************
