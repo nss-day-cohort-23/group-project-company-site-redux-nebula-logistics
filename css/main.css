@@ -10,10 +10,15 @@ body {
     position: relative;
     padding-bottom: 6rem;
     min-height: 100%;
-
-
-
 }
+#homePage {
+    color: white;
+    background-image: url('../Images/contactpage.jpg');
+}
+#mainHeader {
+    color: white;
+}
+
 /*-----------NAV BAR-------------*/
 
 ul {
@@ -234,7 +239,7 @@ PRODUCTS PAGE
     margin: 4em auto;
     padding: .5em;
     text-align: center;
-} 
+}
 
 /*---------FOOTER-----------*/
  #footer {
