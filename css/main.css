@@ -42,6 +42,59 @@ li a:hover {
 }
 
 
+/* About Page CSS */
+
+.about-container  h2 {
+    text-align: center;
+}
+
+.about-paragraphs p {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#about-image {
+    width: 100%;
+}
+
+.about-container {
+    width: 100%;
+    align-content: center;
+    display: block;
+    margin: auto;
+
+}
+
+.about-container section {
+    padding-top: 1em;
+}
+
+.do-hover, .history-hover {
+    position: relative;
+}
+
+.do-hover-text, .history-hover-text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: #000;
+    color: white;
+  }
+
+.do-hover-text p, .history-hover-text p {
+    padding-left: .75rem;
+}
+
+.do-hover:hover .do-hover-text {
+    opacity: .75;
+  }
+
+.history-hover:hover .history-hover-text {
+    opacity: .75;
+  }
 h1,h2,h3,h6{
     text-align: center;
 }
@@ -151,6 +204,8 @@ PRODUCTS PAGE
 
 #subTagline {
     margin: 1em auto;
+}
+
     text-align: center;
     letter-spacing: .03em;
 }
@@ -176,6 +231,7 @@ PRODUCTS PAGE
     padding: .5em;
     text-align: center;
 }
+
 /*---------FOOTER-----------*/
  #footer {
 bottom:0;
@@ -195,4 +251,5 @@ bottom:0;
  #motto {
 font-size: 10px;
 }
+
 
