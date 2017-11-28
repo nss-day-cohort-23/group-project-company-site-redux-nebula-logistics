@@ -32,46 +32,48 @@ li a:hover {
 
 /*---------CONTACT PAGE-----------*/
 
-#contactimage{
-    background: url("../images/contactpage.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 478px;
-    display: flex;
-    flex-direction: column;
+.contactimage{
+    position: relative;
+    display: 50%;
+    width:500px;
 }
 
-#contact::after{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: auto;
-    height: 4px;
+.contact{
+    display:block;
     width: 100%;
-    content: '';
+    height: auto;
 }
 
-#contact p, #contact h2{
-    text-align: center;
-    left:10%;
-    color:white;
-    text-shadow: 1px 1.3px rgba(0,0,0,.2);
+.overlay {
+    position: absolute;
+    opacity:0;
+    background-color: black;
 }
 
-#contact h2{
-    font-size:5.2em;
-    padding: 0;
-
+.contactimage:hover .overlay{
+    opacity: 1;
 }
 
-#contact p{
-    font-size:1.4em;
-    padding: 0px 5.1em;
+.text{
+    color: lightgray;
+    font-size: 25px;
+    position: absolute;
 }
 
-#contact{
-    width:100%;
+.flex-container-center{
+    width: 50%;
+    margin: auto;
 }
-#contact img {
-    height: 205px;
-    margin-top: auto;
+
+#form-container{
+    padding: 6em;
+}
+
+
+.flex-container-left-item{
+    width: 50%;
+    margin: auto;
+}
 /*************
 PRODUCTS PAGE
 *************/
