@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /*-----------NAV BAR-------------*/
 
 ul {
@@ -72,30 +76,86 @@ li a:hover {
 #contact img {
     height: 205px;
     margin-top: auto;
+}
+
+
+
 /*************
 PRODUCTS PAGE
 *************/
 
+/**flex layout**/
+
 .productCards {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+    width: 87%;
     margin: 1em auto;
 }
 
-.productFlex1, .productFlex2 {
+.productFlex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row, nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 5em auto;
+}
+
+.productFlex div {
+    flex-grow: 1;
+    flex-basis: 22%;
+    align-self: stretch;
+    margin: 0 1em;
+    border: 1px solid black;
+    border-radius: 0 2em 0 2em;
+    transition: box-shadow .5s;
+    transition: border-width .4s;
+}
+
+.productFlex div:first-child {
+    margin-left: 0;
+}
+
+.productFlex div:last-child {
+    margin-right: 0;
 }
 
 .productCards img {
-    width: 250px;
+    max-width: 100%;
     height: auto;
 }
 
-.productCards div {
-    border: 1px solid black;
-    margin: 1em auto;
+
+/**product styling**/
+
+#productTagline {
+    font-size: 3.5em;
+    margin-left: 3em;
+    letter-spacing: .01em;
 }
 
+#subTagline {
+    margin: 1em auto;
+    text-align: center;
+    letter-spacing: .03em;
+}
+
+.productFlex div:hover {
+    box-shadow: 4px 0 4px gold;
+    border-width: 2px;
+}
+
+.productHeader {
+    font-style: italic;
+    margin-left: .3em;
+    letter-spacing: .15em;
+}
+
+.money {
+    font-size: 1.2em;
+    padding-left: .7em;
+}
+
+.description {
+    margin: 4em auto;
+    padding: .5em;
+    text-align: center;
+}
