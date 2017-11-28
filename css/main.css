@@ -1,3 +1,4 @@
+
 /*-----------NAV BAR-------------*/
 
 ul {
@@ -80,12 +81,20 @@ li a:hover {
 .history-hover:hover .history-hover-text {
     opacity: .75;
   }
+h1,h2,h3,h6{
+    text-align: center;
+}
+
+#para1 {
+    text-align: center;
+}
+
 
 
 
 /*---------CONTACT PAGE-----------*/
 
-#contactimage{
+#contactimage {
     background: url("../images/contactpage.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 478px;
@@ -125,6 +134,7 @@ li a:hover {
 #contact img {
     height: 205px;
     margin-top: auto;
+}
 /*************
 PRODUCTS PAGE
 *************/
