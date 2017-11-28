@@ -8,7 +8,7 @@ font-family: 'Raleway', sans-serif;
 body {
     margin: 0;
     position: relative;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
     min-height: 100%;
 }
 #homePage {
@@ -136,6 +136,10 @@ h1,h2,h3,h6{
 /*---------CONTACT PAGE-----------*/
 
 .contactimage{
+    background-image:url(‘../Images/contactpage.jpg’);
+}
+
+.contactimage{
     position: relative;
     display: 50%;
     width:500px;
@@ -183,11 +187,13 @@ PRODUCTS PAGE
 *************/
 
 /**flex layout**/
+.productPage {
+    background-image: url('../Images/contactpage.jpg');
+}
 
 .productCards {
     width: 100%;
-    margin: 1em auto;
-    background-image: url('../Images/contactpage.jpg');
+    margin: 1em auto 0 auto;
 }
 
 .productFlex {
@@ -197,6 +203,10 @@ PRODUCTS PAGE
     justify-content: space-between;
     align-items: stretch;
     margin: 3em auto;
+}
+
+.productFlex:last-child {
+    margin-bottom: 0;
 }
 
 .productFlex div {
@@ -230,14 +240,17 @@ PRODUCTS PAGE
 #productTagline {
     text-align: left;
     font-size: 3.5em;
-    margin-left: 3em;
-    letter-spacing: .01em;
+    margin: 0 0 1em 3em;
+    padding-top: 2em;
+    letter-spacing: .1em;
+    color: white;
 }
 
 #subTagline {
     margin: 1em auto;
     text-align: center;
     letter-spacing: .03em;
+    color: white;
 }
 
 .productFlex div:hover {
