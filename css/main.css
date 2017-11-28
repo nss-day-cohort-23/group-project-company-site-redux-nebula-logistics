@@ -58,7 +58,7 @@ li a:hover {
 }
 
 .about-container {
-    width: 100%;
+    width: 85%;
     align-content: center;
     display: block;
     margin: auto;
@@ -95,6 +95,19 @@ li a:hover {
 .history-hover:hover .history-hover-text {
     opacity: .75;
   }
+
+.aboutmain {
+    background-image: url(../images/contactpage.jpg);
+}
+
+.aboutp, .abouth2 {
+    color: white;
+}
+
+#about-image {
+    border: 4px solid white;
+}
+
 h1,h2,h3,h6{
     text-align: center;
 }
