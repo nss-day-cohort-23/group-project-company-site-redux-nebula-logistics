@@ -55,11 +55,11 @@ li a:hover {
 }
 
 #about-image {
-    width: 100%;
+    width: 99%;
 }
 
 .about-container {
-    width: 85%;
+    width: 80%;
     align-content: center;
     display: block;
     margin: auto;
@@ -99,15 +99,23 @@ li a:hover {
 
 .aboutmain {
     background-image: url(../images/contactpage.jpg);
+    padding-bottom: 2em;
+  
 }
 
-.aboutp, .abouth2 {
+.aboutp {
     color: white;
+}
+
+.abouth2 {
+    color: black;
+    background-color:white;
 }
 
 #about-image {
     border: 4px solid white;
 }
+
 
 h1,h2,h3,h6{
     text-align: center;
