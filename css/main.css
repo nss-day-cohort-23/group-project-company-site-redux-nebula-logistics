@@ -1,3 +1,18 @@
+
+/* BODY */
+html {
+height: 100%;
+box-sizing: border-box;
+}
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+
+
+
+}
 /*-----------NAV BAR-------------*/
 
 ul {
@@ -26,6 +41,67 @@ li a:hover {
     background-color: #111;
 }
 
+
+/* About Page CSS */
+
+.about-container  h2 {
+    text-align: center;
+}
+
+.about-paragraphs p {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#about-image {
+    width: 100%;
+}
+
+.about-container {
+    width: 100%;
+    align-content: center;
+    display: block;
+    margin: auto;
+
+}
+
+.about-container section {
+    padding-top: 1em;
+}
+
+.do-hover, .history-hover {
+    position: relative;
+}
+
+.do-hover-text, .history-hover-text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: #000;
+    color: white;
+  }
+
+.do-hover-text p, .history-hover-text p {
+    padding-left: .75rem;
+}
+
+.do-hover:hover .do-hover-text {
+    opacity: .75;
+  }
+
+.history-hover:hover .history-hover-text {
+    opacity: .75;
+  }
+h1,h2,h3,h6{
+    text-align: center;
+}
+
+#para1 {
+    text-align: center;
+}
 
 
 
@@ -74,16 +150,109 @@ li a:hover {
     width: 50%;
     margin: auto;
 }
+
 /*************
 PRODUCTS PAGE
 *************/
 
+/**flex layout**/
+
+.productCards {
+    width: 100%;
+    margin: 1em auto;
+    background-image: url('../Images/contactpage.jpg');
+}
+
+.productFlex {
+    width: 87%;
+    display: flex;
+    flex-flow: row, nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3em auto;
+}
+
+.productFlex div {
+    flex-grow: 1;
+    flex-basis: 22%;
+    align-self: stretch;
+    margin: 2em 1em;
+    border: 1px solid black;
+    border-radius: 0 2em 0 2em;
+    background-color: rgba(255,255,255,.8);
+    transition: background-color .4s;
+    transition: box-shadow .4s;
+}
+
+.productFlex div:first-child {
+    margin-left: 0;
+}
+
+.productFlex div:last-child {
+    margin-right: 0;
+}
+
 .productCards img {
-    width: 350px;
+    max-width: 100%;
     height: auto;
 }
 
-.productCards div {
-    border: 1px solid black;
-    margin: 1em auto;
+
+/**product styling**/
+
+#productTagline {
+    text-align: left;
+    font-size: 3.5em;
+    margin-left: 3em;
+    letter-spacing: .01em;
 }
+
+#subTagline {
+    margin: 1em auto;
+    text-align: center;
+    letter-spacing: .03em;
+}
+
+.productFlex div:hover {
+    background-color: white;
+    box-shadow: 4px 0 4px gold;
+}
+
+.productHeader {
+    font-style: italic;
+    margin-left: .3em;
+    letter-spacing: .15em;
+}
+
+.money {
+    font-size: 1.2em;
+    padding-left: .7em;
+}
+
+.description {
+    margin: 4em auto;
+    padding: .5em;
+    text-align: center;
+}
+
+/*---------FOOTER-----------*/
+ #footer {
+bottom:0;
+ }
+
+    footer {
+        background:#333;
+        color: white;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding: 1rem;
+        height: 3em;
+    }
+ #motto {
+font-size: 10px;
+}
+
+
